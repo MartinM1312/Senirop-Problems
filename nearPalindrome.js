@@ -1,4 +1,4 @@
-class NearPalindromsDiv1 {
+class NearPalindromesDiv1 {
   constructor(s) {
     this.s = s;
   }
@@ -136,9 +136,10 @@ class NearPalindromsDiv1 {
 // i i o
 // i g g i o -> gioig
 
-test = new NearPalindromsDiv1();
+let s = "abc";
+test = new NearPalindromesDiv1();
 
-console.log(test.solve("abc"));
+test.solve(s);
 
 // h
 // a  --->d: 3  c: 2
