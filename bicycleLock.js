@@ -65,4 +65,6 @@ class BicycleLock {
 }
 
 let dials = [1, 1, 2, 3];
-makeDistinct(dials);
+
+test = new BicycleLock();
+test.makeDistinct(dials);
